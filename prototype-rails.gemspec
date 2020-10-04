@@ -10,6 +10,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency('rails')
   spec.add_dependency('activesupport-json_encoder')
-  spec.add_dependency('arails-deprecated_sanitizer')
+  spec.add_dependency('rails-deprecated_sanitizer')
   spec.add_development_dependency('mocha')
 end
