@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name     = 'prototype-rails'
-  spec.version  = '4.1.0'
+  spec.version  = '6.0.1'
   spec.summary  = 'Prototype, Scriptaculous, and RJS for Ruby on Rails'
   spec.homepage = 'http://github.com/rails/prototype-rails'
   spec.author   = 'Xavier Noria'
@@ -10,5 +10,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency('rails')
   spec.add_dependency('activesupport-json_encoder')
+  spec.add_dependency('arails-deprecated_sanitizer')
   spec.add_development_dependency('mocha')
 end
