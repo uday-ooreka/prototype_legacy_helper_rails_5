@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.files = %w(README Rakefile Gemfile) + Dir['lib/**/*', 'vendor/**/*', 'test/**/*']
 
-  spec.add_dependency('rails')
+  spec.add_dependency('rails', ">= 6")
   spec.add_dependency('activesupport-json_encoder')
   spec.add_dependency('rails-deprecated_sanitizer')
   spec.add_development_dependency('mocha')
